@@ -1,0 +1,2 @@
+(self.webpackChunkcharlie_fan_blog=self.webpackChunkcharlie_fan_blog||[]).push([[682],{5518:function(e,n,l){"use strict";l.r(n),l.d(n,{default:function(){return a}});var t=l(7294),u=l(6625);function a(){return t.createElement(u.Z,null,t.createElement("div",null,t.createElement("h1",null,"About me"),t.createElement("p",null,"I’m good enough, I’m smart enough, and gosh darn it, people like me!")))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-269c465fd2a802e81dae.js.map
