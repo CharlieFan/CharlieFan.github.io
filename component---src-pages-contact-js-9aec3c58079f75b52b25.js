@@ -1,0 +1,2 @@
+(self.webpackChunkcharlie_fan_blog=self.webpackChunkcharlie_fan_blog||[]).push([[501],{262:function(e,t,n){"use strict";n.r(t),n.d(t,{default:function(){return c}});var a=n(7294),l=n(336);function c(){return a.createElement(l.Z,null,a.createElement("main",null,a.createElement("h1",{className:"pb-5 text-2xl text-gray-900"},"Contact Me")))}}}]);
+//# sourceMappingURL=component---src-pages-contact-js-9aec3c58079f75b52b25.js.map
