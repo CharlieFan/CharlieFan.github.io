@@ -23,15 +23,33 @@ export default function NavAside() {
 
             <ul>
                 <li className="py-1 m-0">
-                    <Link className="text-gray-500 bg-none" activeClassName="underline text-gray-900	" to="/">Articles</Link>
+                    <Link
+                        className="text-gray-500 bg-none"
+                        activeClassName="underline text-gray-900	"
+                        to="/"
+                    >
+                        Articles
+                    </Link>
                 </li>
 
                 <li className="py-1 m-0">
-                    <Link className="text-gray-500  bg-none"  activeClassName="underline text-gray-900	" to="/about/">About</Link>
+                    <Link
+                        className="text-gray-500  bg-none"
+                        activeClassName="underline text-gray-900	"
+                        to="/about/"
+                    >
+                        About Me
+                    </Link>
                 </li>
 
                 <li className="py-1 m-0">
-                    <Link className="text-gray-500  bg-none"  activeClassName="underline text-gray-900	" to="/contact/">Contact</Link>
+                    {/* <Link
+                        className="text-gray-500  bg-none"
+                        activeClassName="underline text-gray-900	"
+                        to="/contact/"
+                    >
+                        Contact
+                    </Link> */}
                 </li>
             </ul>
 

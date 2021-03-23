@@ -1,6 +1,6 @@
 import React from "react";
-import Head from './Head';
-import NavAside from './NavAside';
+import Head from "./Head";
+import NavAside from "./NavAside";
 
 export default function BaseLayout({ children }) {
     return (
@@ -16,6 +16,9 @@ export default function BaseLayout({ children }) {
                     <div className="col-span-12 md:col-span-8">{children}</div>
                 </div>
             </div>
+            <footer className="py-2 bg-gray-500 text-center text-white">
+                👨‍💻 Charlie Fan ❤
+            </footer>
         </>
     );
 }

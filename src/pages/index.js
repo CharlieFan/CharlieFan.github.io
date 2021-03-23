@@ -39,7 +39,6 @@ const ListItem = ({ data }) => {
 // markup
 const IndexPage = ({ data }) => {
     // const
-    console.log(data.allMarkdownRemark);
     const blogs = data.allMarkdownRemark.edges;
 
     /** Render: */
