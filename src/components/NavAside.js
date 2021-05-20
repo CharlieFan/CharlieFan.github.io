@@ -44,10 +44,10 @@ export default function NavAside() {
                     </Link>
                 </li>
 
-                <li className="py-1 m-0">
-                    <span>Contact</span>
+                <li className="py-2 m-0">
+                    <span>Contact:</span>
 
-                    <span className="flex py-2">
+                    <span className="flex">
                         <a
                             className="block mr-2"
                             target="_blank"
