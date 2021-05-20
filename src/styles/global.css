@@ -13,6 +13,10 @@ p {
     margin-bottom: 1rem;
 }
 
+.blog-content a {
+    color: #2aaeff;
+}
+
 /**
  * Add back the container background-color, border-radius, padding, margin
  * and overflow that we removed from <pre>.
