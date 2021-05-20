@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
+import SvgGitHub from "../svgIcons/SvgGitHub";
+import SvgLinkedIn from "../svgIcons/SvgLinkedIn";
 
 export default function NavAside() {
     return (
@@ -43,13 +45,27 @@ export default function NavAside() {
                 </li>
 
                 <li className="py-1 m-0">
-                    {/* <Link
-                        className="text-gray-500  bg-none"
-                        activeClassName="underline text-gray-900	"
-                        to="/contact/"
-                    >
-                        Contact
-                    </Link> */}
+                    <span>Contact</span>
+
+                    <span className="flex py-2">
+                        <a
+                            className="block mr-2"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://github.com/CharlieFan"
+                        >
+                            <SvgGitHub />
+                        </a>
+
+                        <a
+                            className="block"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.linkedin.com/in/charlesfan91/"
+                        >
+                            <SvgLinkedIn />
+                        </a>
+                    </span>
                 </li>
             </ul>
 

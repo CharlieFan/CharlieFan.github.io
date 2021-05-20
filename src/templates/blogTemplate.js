@@ -47,7 +47,7 @@ export default function Template({
                     </h1>
 
                     <div
-                        className="text-md text-gray-700"
+                        className="text-md text-gray-700 blog-content"
                         dangerouslySetInnerHTML={{ __html: html }}
                     />
                 </div>
